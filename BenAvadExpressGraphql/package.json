@@ -1,0 +1,23 @@
+{
+  "name": "benavadgraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon --exec babel-node server.js",
+    "start:dev": "nodemon --exec babel-node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "apollo-server-express": "^3.1.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.7"
+  }
+}
